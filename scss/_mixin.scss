@@ -1,0 +1,44 @@
+@mixin bg-properties{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin section-heading{
+    color: #000;
+    text-align: center;
+    font-size: 59.679px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    @media screen and (max-width:991px){
+        font-size: 4rem;
+    }
+    @media screen and (max-width:786px){
+        font-size: 3.6rem;
+    }
+    @media screen and (max-width:575px){
+        font-size: 2.8rem;
+    }
+}
+
+
+@mixin button {
+    background:$theme-clr;
+    display: inline-block;
+    padding: 2rem 2rem;
+    border-radius: 17px;
+    margin: 0 0 2rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 44.759px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all 0.2s ease-in-out;
+    &:hover{
+        background: #222;
+    }
+}
+

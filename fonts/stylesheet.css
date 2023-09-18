@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Acumin Pro ExtraCondensed';
+    src: url('AcuminProExtraCond-Regular.eot');
+    src: url('AcuminProExtraCond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('AcuminProExtraCond-Regular.woff2') format('woff2'),
+        url('AcuminProExtraCond-Regular.woff') format('woff'),
+        url('AcuminProExtraCond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
