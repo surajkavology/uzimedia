@@ -86,7 +86,7 @@ gsap.from(".common-cards:nth-of-type(1), .common-cards:nth-of-type(4)", {
     scrub: 3,
     trigger:".common-cards",
     scroller:"#main",
-    markers:true,
+    // markers:true,
     start:"top 30%",
     end: "top 40%"
   }
@@ -100,7 +100,7 @@ gsap.from(".common-cards:nth-of-type(3), .common-cards:nth-of-type(6)", {
     scrub: 3,
     trigger:".common-cards",
     scroller:"#main",
-    markers:true,
+    // markers:true,
     start:"top 30%",
     end: "top 40%"
   }
@@ -114,7 +114,7 @@ gsap.from(".common-cards:nth-of-type(2), .common-cards:nth-of-type(5)", {
     scrub: 3,
     trigger:".common-cards",
     scroller:"#main",
-    markers:true,
+    // markers:true,
     start:"top 30%",
     end: "top 40%"
   }
